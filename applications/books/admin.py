@@ -1,6 +1,5 @@
 from django.contrib import admin
-from django.contrib.auth import get_user_model
+from applications.books.models import Book
 
-User = get_user_model()
 
-# admin.site.register(Post)
+admin.site.register(Book)
